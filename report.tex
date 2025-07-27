@@ -1,0 +1,57 @@
+%===============================================================================
+%   汎用実験レポートテンプレート（LuaLaTeX／ltjsarticle）
+%===============================================================================
+\documentclass[10pt,a4paper]{ltjsarticle}
+
+%―――――― フォント設定 ―――――――
+\usepackage{fontspec}            % 欧文フォント
+\usepackage{luatexja-fontspec}   % 日本語フォント連携
+\setmainfont{Times New Roman}    % 欧文メインフォント
+\setmainjfont{IPAexMincho}       % 和文メインフォント
+\setsansjfont{IPAexGothic}       % サンセリフ（見出し等）
+
+%―――――― パッケージ群 ―――――――
+\usepackage{amsmath,amssymb}     % 数式
+\usepackage{graphicx,subcaption} % 画像／サブ図
+\usepackage{float}               % [H] オプション
+\usepackage{booktabs,multirow}   % 表組み
+\usepackage[hyphens]{url}        % URL 改行
+\usepackage{xurl}                % URL 柔軟改行
+\usepackage{hyperref}            % ハイパーリンク
+\usepackage{fancyhdr}            % ヘッダ・フッタ
+\usepackage{siunitx}             % 単位
+
+%―――――― ヘッダ・フッタ設定 ―――――――
+\pagestyle{fancy}
+\lhead[\bfseries\thepage]{\textbf{実験レポート}} % 左ヘッダ
+\rhead[\bfseries\thepage]{作成日：\today}        % 右ヘッダ
+\lfoot{学籍番号 氏名}                            % 左フッタ（要変更）
+\cfoot{}                                         % 中央フッタ
+\rfoot{\thepage}                                 % 右フッタ
+
+%―――――― 各種設定 ―――――――
+\graphicspath{{images/}} % 画像フォルダ
+\sloppy                  % 行オーバーフロー回避
+
+%―――――― タイトル情報 ―――――――
+\title{\LARGE 実験タイトルを書く}       % レポートタイトル
+\author{{\Large 学籍番号 氏名}}         % 学籍番号と氏名
+\date{作成日：\today}                   % 日付
+
+%===============================================================================
+\begin{document}
+%===============================================================================
+
+\maketitle      % タイトル出力
+\tableofcontents % 目次
+\newpage         % 改ページ
+
+%===============================================================================
+
+% ここから本文
+
+%===============================================================================
+\end{document}
+%===============================================================================
+
+
