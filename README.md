@@ -1,7 +1,10 @@
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
+
 # 汎用実験レポートテンプレート（LuaLaTeX／ltjsarticle）
 
 LuaLaTeX ＋ ltjsarticle クラスを使った日本語実験レポート用テンプレートです。
-大学の実験レポートや研究ノートを手軽に作成できるよう、フォント設定・ヘッダ／フッタ・目次・自動日付挿入などをあらかじめ構成しています。
+
+大学の実験レポートを手軽に作成できるよう、フォント設定・ヘッダ／フッタ・目次・自動日付挿入などをあらかじめ構成しています。
 
 ---
 
@@ -189,4 +192,5 @@ $clean_ext = 'aux fdb_latexmk fls synctex.gz';
 ## ライセンス
 
 MIT License
+
 自由にフォーク・改変してお使いください。
